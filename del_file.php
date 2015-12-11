@@ -10,5 +10,5 @@ if(isset($_GET["x"])){
 		$deleteGoTo .= $_SERVER['QUERY_STRING'];
 	 }
 	 header(sprintf("Location: %s", $deleteGoTo)); 
-}
+} 
 ?>
